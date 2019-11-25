@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Final_CA</string>
+    <string name="ct_pistols">CT Pistols</string>
+    <string name="ct_smg">CT SMG</string>
+    <string-array name="pistols_ct">
+        <item>Desert Eagle</item>
+        <item>CZ75</item>
+        <item>Dual Berettas</item>
+        <item>Five-Seven</item>
+        <item>P250</item>
+        <item>P2000</item>
+        <item>USP-S</item>
+        <item>R8-Revolver</item>
+    </string-array>
+
+    <string-array name="ct_smg">
+        <item>MP9</item>
+        <item>MP7</item>
+        <item>P90</item>
+        <item>UMP-45</item>
+        <item>MP5-SD</item>
+        <item>PP-Bizon</item>
+    </string-array>
+
+
+</resources>

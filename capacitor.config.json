@@ -1,0 +1,8 @@
+{
+  "appId": "com.music.mates",
+  "appName": "final-project",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
