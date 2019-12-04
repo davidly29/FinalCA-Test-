@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you dont have an account, Register now !"
+        android:textColor="#D6C53D"
+        android:textColorHint="#D6C53D"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"
+        tools:layout_editor_absoluteX="2dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/buttonSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lets go !"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+        app:layout_constraintVertical_bias="0.023"
+        tools:layout_editor_absoluteX="16dp">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="504dp"
+        android:hint="Enter Your Password !"
+        android:inputType="textPassword"
+        android:textColor="#D6C53D"
+        android:textColorHint="#D6C53D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="35dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="410dp"
+        android:layout_height="53dp"
+        android:hint="Enter Your Email !"
+        android:inputType="textEmailAddress"
+        android:textColor="#D6C53D"
+        android:textColorHint="#D6C53D"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736">
+
+
+    </EditText>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
