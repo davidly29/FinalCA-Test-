@@ -43,7 +43,7 @@ public class WeaponItemDetails extends AppCompatActivity {
                 Iterable<DataSnapshot> snap = dataSnapshot.getChildren();
                  for(DataSnapshot child: snap){
                      detail = child.getValue(WeaponObjectHolder.class);
-
+                     //test
                      textViewTitle.setText(detail.getName());
                      textView.setText(detail.getName());
                      textViewDamage.setText(detail.getDmg());
